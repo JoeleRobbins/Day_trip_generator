@@ -1,1 +1,2 @@
-# Day_trip_generator
+#READ ME FILE
+print ("Hello World")
