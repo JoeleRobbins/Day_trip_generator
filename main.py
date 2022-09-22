@@ -1,29 +1,23 @@
-destinations = ["Canada, Japan, Sweden, Australia"]
+import random 
 
-restarurants = ["KFC, McDonalds, Pizza Hut, Burger King"]
+destinations = ['Canada', 'Japan', 'Sweden', 'Australia']
 
-mode_of_transportation = ["bicycling, personal car, skateboarding, walking"]
+restarurants = ['KFC', 'McDonalds', 'Pizza Hut', 'Burger King']
 
-entertainments = ["Movies, clubs, amusement parks, sky diving"]
+mode_of_transportations = ['bicycling', 'personal car', 'skateboarding', 'walking']
+
+entertainments = ['Movies', 'clubs', 'amusement parks', 'sky diving']
+
+random_destination = random.choice(destinations)
 
 #Random Day Trip Generator
 
 def run_day_trip_generator (): 
-
-
-
-def print_trip(): --
-
-
-def generate_random_item (): -- 
-
-
-def determine_satisfaction (): --
-
-
-def reselect_options (): ---
+    print(random_destination)
 
 
 run_day_trip_generator()
+
+
 
 
